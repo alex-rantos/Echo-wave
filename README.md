@@ -4,7 +4,7 @@ This project implements the echo wave algorithm for undirected networks. To simu
 a realistic execution in each repetition of the algorithm the nodes that are able to execute
 the protocol are generate randomly.
 
-#####Outcome / Observation
+##### Outcome / Observation
 Depending the purpose of the network an appropriate network structure must be 
 selected because there is a correlation between network's connection pattern,
 network's cost and time. Therefore, the execution time is dropped when the
@@ -12,7 +12,7 @@ network connectivity is strong but this increases the cost (total messages sent)
 On the other hand, if a network is not well connected the cost decreases but the time 
 increases and the tree's depth.
 
-####Input explanation
+#### Input explanation
 Input is read by a .txt file which must be located in the src/resources/ folder. 
 This file must have a unique pattern that must be followed in order the program to run correctly.
 The rules that are described bellow must be followed :
@@ -27,7 +27,7 @@ that **ALL** nodes' values, in the range of [0,graphSize), are used in order to 
 Also make sure that the graph is connected otherwise algorithm won't terminate, since performing the algorithm in
 graph's connected components have not yet implemented
 
-#####Configurations
+##### Configurations
 @src.uk.ac.ncl.echo.UseAlgorithm#main : If you want to test your file add the name of the file in the inputFileName String array
  and the file itself in the src/resources/ folder.
 
